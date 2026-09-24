@@ -1,4 +1,8 @@
 name: cli
+# Because the cli package is an application package and isn't intended to be published to pub.dev, add
+# publish_to: none after the name field. This helps avoid accidental publishing and prevents analyzer
+# warnings about adding path dependencies.
+publish_to: none
 description: A sample command-line application.
 version: 1.0.0
 # repository: https://github.com/my_org/my_repo
@@ -10,6 +14,8 @@ environment:
 dependencies:
   path: ^1.9.0
   http: ^1.6.0
+  command_runner:
+    path: ../command_runner
 
 dev_dependencies:
   lints: ^6.0.0
