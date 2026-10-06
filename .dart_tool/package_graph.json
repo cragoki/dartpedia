@@ -18,7 +18,9 @@
       "dependencies": [
         "command_runner",
         "http",
-        "path"
+        "logging",
+        "path",
+        "wikipedia"
       ],
       "devDependencies": [
         "lints",
@@ -95,6 +97,11 @@
     {
       "name": "path",
       "version": "1.9.1",
+      "dependencies": []
+    },
+    {
+      "name": "logging",
+      "version": "1.3.0",
       "dependencies": []
     },
     {
@@ -368,11 +375,6 @@
       ]
     },
     {
-      "name": "logging",
-      "version": "1.3.0",
-      "dependencies": []
-    },
-    {
       "name": "web_socket",
       "version": "1.0.1",
       "dependencies": [
@@ -420,9 +422,10 @@
     },
     {
       "name": "frontend_server_client",
-      "version": "4.0.0",
+      "version": "4.1.0",
       "dependencies": [
         "async",
+        "package_config",
         "path"
       ]
     },

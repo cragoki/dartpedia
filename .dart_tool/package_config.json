@@ -69,9 +69,9 @@
     },
     {
       "name": "frontend_server_client",
-      "rootUri": "file:///C:/Users/crarod/AppData/Local/Pub/Cache/hosted/pub.dev/frontend_server_client-4.0.0",
+      "rootUri": "file:///C:/Users/crarod/AppData/Local/Pub/Cache/hosted/pub.dev/frontend_server_client-4.1.0",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "3.10"
     },
     {
       "name": "glob",
